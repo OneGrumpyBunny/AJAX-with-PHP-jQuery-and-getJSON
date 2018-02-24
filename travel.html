@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="travel.js"></script>
+<style>
+  
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+
+body {
+  background: #ecf0f1;
+  font-family: "Roboto", sans-serif;
+  padding: 2.23em;
+}
+
+.title {
+  color: #2c3e50;
+ 
+  text-align: center;
+}
+.logDetail {
+  margin: auto;
+	width: 27em; 
+  height: 11em;
+  background: #fff;
+  border-radius: .3em;
+}
+
+.logDetail  #location {
+  margin: auto;
+  margin-top: -4.40em;
+  margin-left: 5.80em;
+  color: #55679e;
+  font-size: 1.53em;
+  font-weight: 800;
+}
+
+#visitedDate {
+  margin: auto;
+  display: inline-block;
+  margin-left: 10.43em;
+  color: #3498db;
+  font-size: .87em;
+  font-weight:300;
+}
+
+.logDetail> .description {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 3em;
+  width: 18em;
+  color: #5f5d8c;
+  font-size: .87em;
+}
+
+.logDetail > img#photo {
+	padding: .7em;
+  margin-left: .3em;
+  margin-top: .3em;
+  height: 6.23em;
+  width: 6.23em;
+  border-radius: 18em;
+}
+
+
+.footer {
+	margin: 2em auto;
+	height: 2.70em;
+  background: #55679e;
+  text-align: center;
+  border-radius: 0 0 .3em .3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.1s;
+}
+
+button {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 0;
+}
+
+.footer:hover {
+  background: #90a5e5;
+}
+</style>
+</head>
+<body>
+<h1 class="title"> Travel Log</h1>
+<div class="logDetail">
+	<img id="photo" src="" />
+    <div id="location"></div>
+    <div class="description">
+      <div><span id="visitedDate"></span></div>
+      <div><span id="comments"></span></div>
+      
+  <div class="footer">
+    <button id="btn">Next Location!</button>
+ </div>
+</div>
+</body>
+</html>
