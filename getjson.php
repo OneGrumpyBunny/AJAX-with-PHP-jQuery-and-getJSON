@@ -10,9 +10,9 @@ if (isset($_GET['t'])) {
   // get a count of items in the database and generate a random number
   $query1 = "SELECT count(id) as cntID FROM travelLog";
   $result = $conn->query($query1);
-  while($row = $result->fetch_assoc()) {
-    $numRows = $row["cntID"];
-  }
+  $row = $result->fetch_assoc();
+  $numRows = $row["cntID"];
+  
   //generate a random number between 0 and the number of records returned
   $randRow = rand(0,$numRows-1);
 

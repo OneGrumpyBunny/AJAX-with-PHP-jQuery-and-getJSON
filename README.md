@@ -10,4 +10,4 @@
 </ul>
 
 <p>The real-time JSON output can be seen here: <a href="http://cherylvelez.com/api/index.php?t=1" target="_blank">http://www.cherylvelez.com/api/index.php?t=1</a></p>
-<p>The populated asynchronous data retrieval can be seen here: <a href="http://cherylvelez.com/api/travel.html">http://cherylvelez.com/api/travel.html</a></p>
+<p>The populated asynchronous data retrieval can be seen here: <a href="http://cherylvelez.com/api/travel.html" target="_blank">http://cherylvelez.com/api/travel.html</a></p>
